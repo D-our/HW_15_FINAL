@@ -8,18 +8,24 @@
     <script src="https://kit.fontawesome.com/42a968f827.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="global__container">
 
 
-    <div class="global__container--sub">
+
+    <div class="wrapper">
 
         <header>
 
             <h1>Dashboard</h1>
-            <div class="filter">
-                <p>Filter: <span>Shared domains</span></p>
-                <button class="plus" type="button">+</button>
-            </div>
+            <form action="index.html" method="POST">
+
+                    <label for="filter">Filter:</label>
+                    <select name="filter" id="filter">
+                        <option value="Shared domains">Shared domains</option>
+                        <option value="Shared domains_1">Shared domains_1</option>
+                    </select>
+                    <button class="plus" type="button">+</button>
+
+            </form>
 
         </header>
 
@@ -121,6 +127,6 @@
 
     </div>
 
-</div>
+
 </body>
 </html>
